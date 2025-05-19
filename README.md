@@ -45,7 +45,7 @@ Numerous challenges were encountered during development, including statistical b
 1.  **克隆倉庫 (Clone the repository):**
     ```bash
     git clone https://github.com/ccccccgg/Dynamic-Polynomial-Seed-Generator.git
-    cd YourRepositoryName
+    cd Dynamic-Polynomial-Seed-Generator
     ```
 2.  **檢查/安裝依賴 (Check/Install dependencies):**
     本項目主要依賴 `sympy`。如果未安裝，請運行：
@@ -64,14 +64,15 @@ Numerous challenges were encountered during development, including statistical b
     - 確保 `DPSG system/Prime.txt` 文件存在且包含一個質數列表 (每行一個質數)。
 4.  **運行 (Run):**
     ```bash
-    python Main_1.1.1.py
+    python Main_1.1.2.py
     ```
     生成的 ASCII 序列將保存在 `Config.txt` 中 `save` 字段指定的路徑。
 
 ## NIST 測試結果 (NIST Test Results)
 
 本 PRNG 生成的序列已成功通過 NIST SP 800-22 測試套件的所有 15 項測試。
-唯有時會出現特定項目無法通過的情況，屬於少數，目前正進行修訂
+唯有時會出現種子碼品質較差而造成特定項目無法通過的情況，屬於少數，目前正進行修訂
+以下是 NIST 通過證明
 [NIST Example Output](Images/NIST_Example_Output.png)
 
 ## 風險與免責聲明 (Risks and Disclaimer)
