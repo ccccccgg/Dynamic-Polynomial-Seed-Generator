@@ -1,0 +1,9 @@
+{
+    "save": "C:/Users/user/Desktop/Plane/Serine/A-variant-of-NIST-SP-800-22-test-suit-master/ASCII.txt",
+    "prime": "DPSG system/Prime.txt",
+    "F1": "a**9 + b**9 + c**9 + d**9 + e**9 + f**9 + 1",
+    "F2": "3*a + 3*b + 3*c + 3*d + 3*e + 3*f + 3*g + 3*h + 3*i + 3*j + 1",
+    "dimension": 5,
+    "num_seeds": 1,
+    "decimal": 200000
+}
